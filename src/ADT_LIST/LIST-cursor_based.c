@@ -63,7 +63,7 @@ void insertElem(LIST *head, char data, int pos){
 
     while(*trav != -1 && ndx < pos){
         trav = &VH.Nodes[*trav].link;
-        ndx++
+        ndx++;
     }
 
     LIST node = allocSpace(&VH);

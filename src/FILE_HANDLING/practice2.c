@@ -37,10 +37,14 @@ void writeFile(){
         fileName[strcspn(fileName, "\n")] = 0;
     }
 
-    FILE *fp = fopen(fileName, "wb");
+    FILE *fp = fopen(fileName, "rb+");
+
 
     if (fp != NULL){
+        Studtype students[5];
+        
 
+        
     }
 }
 
